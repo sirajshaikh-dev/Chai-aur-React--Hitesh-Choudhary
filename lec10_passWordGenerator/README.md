@@ -4,7 +4,7 @@ This is a **React**-based password generator application that allows users to cr
 
 ## Screenshot
  
-![Image 2](src\assets\passwordGen.png)
+![Image 2](./src/assets/passwordGen.png)
 
 ### `App.jsx`
 ```jsx
