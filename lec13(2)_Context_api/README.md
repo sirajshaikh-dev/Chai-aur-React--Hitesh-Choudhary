@@ -119,6 +119,23 @@ export default function ThemeBtn() {
 - `ThemeProvider` in `App.jsx` makes this context available to all child components like `ThemeBtn`.
 - `useTheme()` in `ThemeBtn` allows the component to read and modify the theme state.
 
-
-
-
+# File Structure
+``` 
+├── node_modules (.gitignore)
+├── src
+│   ├── components
+│   │   ├── Card.jsx
+│   │   └── ThemeBtn.jsx
+│   ├── Contexts
+│   │   └── Theme.js
+│   ├── App.jsx
+│   ├── index.css
+│   └──  main.jsx
+├── .gitignore
+├── Context.md
+├── index.html
+├── Screenshot
+├── tailwind.config.js
+├── package.json
+└── README.md
+```
